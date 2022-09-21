@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="/app.js"></script>
     <title>Pokemon Rock, Paper, Scissors</title>
 </head>
 <body>
-    
+    <div class="elements-wrapper">
+        <div class="elements"><img class ="elements-max" src="https://cdn.discordapp.com/attachments/959603866893185153/1022019713607413770/22FD2639-224E-4223-A9CA-205A112FE6DA-removebg-preview.png " alt="elements"></div>  
+      </div>
+      
+      <div class='game-score'>
+      <div class='playerPrompt scores'>
+          <h2>Player
+            <span id='player-score'>0</span>
+          </h2>
+        </div>
+      
+        <div class='computerPrompt scores'>
+          <h2>Computer
+            <span id='computer-score'>0</span>
+          </h2>
+        </div>
+      </div>
+      
+      <h1>Rock, Paper, Scissors</h1>
+      
+      <p> Make your choice below</p>
+      
+      <div id='choices'>
+        <button class='btn' id='generate-rock'> <img class ="img-max" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/4/4c/Pokemans_006.gif?width=1920 " alt="Charizard"> </button>
+        <button class='btn' id='generate-paper'> <img class ="img-max" src=" https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/3/38/Pokemans_003.gif?width=1920" alt="Venosaur"> </button>
+        <button class='btn' id='generate-scissors'> <img class ="img-max" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/8/8b/Pokemans_009.gif?width=1920 " alt="Blastoise"> </button>
+      </div>
+      
+      <div id='results-display'>
+        <div class="text-box">
+         
+        <div class="box"> <h3 id='results'></h3> <i></i></div>  
+        </div>
+       
+      </div>
+      
+      <div class='gameReset'>
+        <button class='reset-btn' id='reset-btn'>Start Over</button>
+      </div>
+      
     
 </body>
 </html>
