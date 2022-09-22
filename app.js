@@ -48,6 +48,7 @@ function buttonClick(e) {
       document.getElementById('results').innerText = "The Computer wins! The Computer chose " + computer.currentChoice + " and You chose " + player.currentChoice;
     }
   } else if (computer.currentChoice === choices[2]) {
+    if (player.currentChoice === choices[0]) {
     playerScore += 1;
     document.getElementById('player-score').innerText = playerScore;
     document.getElementById('results').innerText = "You win! The Computer chose " + computer.currentChoice + " and You chose " + player.currentChoice;
@@ -55,6 +56,7 @@ function buttonClick(e) {
       computerScore += 1;
       document.getElementById('computer-score').innerText = computerScore;
       document.getElementById('results').innerText = "The Computer wins! The Computer chose " + computer.currentChoice + " and You chose " + player.currentChoice;
+    }
   }
 }
 
