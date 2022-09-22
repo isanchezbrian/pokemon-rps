@@ -9,47 +9,50 @@
     <title>Pokemon Rock, Paper, Scissors</title>
 </head>
 <body>
-    <h1>Pokemon Rock, Paper, Scissors</h1>
-    <div class="elements-wrapper">
+    <section class='element-cycle'>
+        <div class="elements-wrapper">
         <div class="elements"><img class ="elements-max" src="https://cdn.discordapp.com/attachments/959603866893185153/1022019713607413770/22FD2639-224E-4223-A9CA-205A112FE6DA-removebg-preview.png " alt="elements"></div>  
+        </div>
+    </section>
+    
+    <head>
+        <h1><link href="http://fonts.cdnfonts.com/css/pokemon-solid-2" rel="stylesheet">Pokemon</h1>
+        <h4><link href="http://fonts.cdnfonts.com/css/pokemon-solid-2" rel="stylesheet">Rock, Paper, Scissors</h4>
+        <section class='game'>
+            <div class='game-score'>
+            <div class='playerPrompt scores'>
+                <h2>Player
+                <span id='player-score'>0</span>
+                </h2>
+            </div>
+    
+            <div class='computerPrompt scores'>
+                <h2>Computer
+                <span id='computer-score'>0</span>
+                </h2>
+            </div>
+            </div>
+        </section>
+        <p> Make your choice below</p>
+    </head>
+    
+    <div id='choices'>
+    <button class='btn' id='generate-fire'> <img id='generate-fire' class="img-max" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/4/4c/Pokemans_006.gif?width=1920 " alt="Charizard"></button>
+    <button class='btn' id='generate-water'> <img id='generate-water' class="img-max" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/8/8b/Pokemans_009.gif?width=1920 " alt="Blastoise"></button>
+    <button class='btn' id='generate-grass'> <img id='generate-grass' class="img-max" src=" https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/3/38/Pokemans_003.gif?width=1920" alt="Venosaur"></button>
     </div>
-      
-      <div class='game-score'>
-      <div class='playerPrompt scores'>
-          <h2>Player
-            <span id='player-score'>0</span>
-          </h2>
-        </div>
-      
-        <div class='computerPrompt scores'>
-          <h2>Computer
-            <span id='computer-score'>0</span>
-          </h2>
-        </div>
-      </div>
-      
-      
-      
-      <p> Make your choice below</p>
-      
-      <div id='choices'>
-        <button class='btn' id='generate-rock'> <img class ="img-max" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/4/4c/Pokemans_006.gif?width=1920 " alt="Charizard"> </button>
-        <button class='btn' id='generate-paper'> <img class ="img-max" src=" https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/3/38/Pokemans_003.gif?width=1920" alt="Venosaur"> </button>
-        <button class='btn' id='generate-scissors'> <img class ="img-max" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-black-and-white/8/8b/Pokemans_009.gif?width=1920 " alt="Blastoise"> </button>
-      </div>
-      
-      <div id='results-display'>
+    
+    <div id='results-display'>
         <div class="text-box">
-         
-        <div class="box"> <h3 id='results'></h3> <i></i></div>  
+    
+        <div class="box"> <h3 id='results'></h3> <i></i>    </div>  
         </div>
-       
-      </div>
-      
-      <div class='gameReset'>
-        <button class='reset-btn' id='reset-btn'>Start Over</button>
-      </div>
-      
+    
+        </div>
+    
+    <div class='gameReset'>
+    <button class='reset-btn' id='reset-btn'>Play Again</button>
+    </div>      
     
 </body>
 </html>
