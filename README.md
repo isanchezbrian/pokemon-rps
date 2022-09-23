@@ -10,7 +10,7 @@ The game is played like Rock, Paper, Scissors, but instead replaced with the ele
 **Buttons:**
 Charizard = Fire,
 Blastoise = Water,
-Venosaur = Grass,
+Venosaur = Grass
 
 **Weaknesses:**
 Fire > Grass |
